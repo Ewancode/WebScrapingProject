@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>ElephantFinds/AboutUsPage</title>
+   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+   <link rel="stylesheet" href = "style.css">
+   <link rel="icon" type="image/x-icon" href="Images\Other\logo.png">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class = "body-AboutUs">
+   <div class="heading-container">
+      <h1 class="h1"><img src = "Images\Other\logo.png"></h1>
+      <h2 class = "h2"><a href = "Login.html">Login</a></h2>
+      <h2 class = "h2"><a href = "SignUp.html">Sign Up</a></h2>
+      <h2 class="h2"><a href="AboutUs.html">About Us</a></h2>
+      <div class="search-container">
+         <form action="/search" method="get">
+            <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+            <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+        </form>
+      </div>
+   </div>
+    
+   <div class ="button">
+      <div class = "navcontainer" >
+         <nav class="navbar">
+            <img src = "Images\Other\RalphLaurenLandscape.png" length = 125 width = 50>
+            <img src = "Images\Other\nike_landscape.png" length = 125 width = 50>
+           <ul>
+         
+            <li><a href = "index.html">Home</a></li>
+              <li><a href = "trainers.html">Trainers</a></li>
+              <li><a href = "apparel.html">Apparel</a></li>
+            <li><a href = "electronics.html">Electronics</a></li>
+            <li><a href = "TradingCards.html">Trading Cards</a></li>
+            <li><a href = "Collectibles.html">Collectibles</a></li>
+         
+         </ul>
+         <img src = "Images\Other\NorthFaceLogoLandscape.png" length = 125 width = 50>
+         <img src = "Images\Other\adidas-logo-landscape.png" length = 125 width = 50>
+         </nav>
+      </div>
+   </div>
+<main class = "About-us-page-main">
+   <h1 class = "titles">About US</h1>
+
+
+   <p class = "about-us-section" style="text-decoration: underline;">
+   Welcome to Elephant Finds - Your Ultimate Fashion Deal Finder!
+   </p>
+   <p class = "about-us-section">
+   At Elephant Finds, we're on a mission to make fashion accessible to everyone by finding the best prices across major clothing websites. We understand the thrill of discovering stylish clothing at unbeatable prices, and we're here to help you experience that excitement every day.
+   </p>
+   <p class = "about-us-section" style = "text-decoration: underline;">
+   Our Mission
+   </p>
+   <p class = "about-us-section">
+   <b>Empowering Your Style Journey:</b>
+   We believe that fashion is a form of self-expression, and everyone deserves to express their unique style without breaking the bank. Our platform is designed to empower you on your style journey by bringing you the hottest trends and must-have wardrobe essentials at prices that won't empty your wallet.<br>
+   <br>
+   <b>Curating the Best Deals:</b>
+   Our dedicated team scours the web to curate a collection of the best clothing deals from renowned fashion retailers. Whether you're into streetwear, athleisure, high-end fashion, or casual chic, Stock Z is your go-to destination for finding the latest styles at affordable prices.
+   <br>
+   <b>Simplifying Your Shopping Experience:</b>
+   Navigating through countless websites to find the best deals can be overwhelming. That's where Stock Z comes in. We simplify your shopping experience by aggregating deals, discounts, and promotions, ensuring you spend less time searching and more time enjoying your new wardrobe additions.
+   <br>
+   <p class = "about-us-section" style = "text-decoration: underline;">
+   Why Elephant Finds?
+   </p>
+   <p class = "about-us-section">
+   <b>Comprehensive Search:</b>
+   Our advanced search algorithms crawl through major clothing websites, ensuring that you get a comprehensive view of the best prices available. You no longer need to visit multiple sites – we bring the deals to you.
+   <br>
+   <b>Real-Time Updates:</b>
+   Fashion trends and prices can change in an instant. Stock Z provides real-time updates, ensuring you're always in the loop about the latest discounts and promotions.
+   <br>
+   <b>User-Friendly Interface:</b>
+   Our user-friendly interface makes it easy to navigate, compare prices, and discover new brands. Whether you're a seasoned fashionista or a budget-conscious shopper, Stock Z caters to all tastes and preferences.
+   Join us on this exciting fashion adventure! Discover unbeatable deals, express your style, and redefine your wardrobe with Stock Z.
+   <br>
+   Happy shopping!
+   </p>
+</main>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var aboutUsSections = document.querySelectorAll('.about-us-section');
+        aboutUsSections.forEach(function (section) {
+            section.classList.add('show');
+        });
+    });
+</script>
+
+</body>
+</html>

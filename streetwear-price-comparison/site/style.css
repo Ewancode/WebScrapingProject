@@ -1,0 +1,525 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.navcontainer {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.button {
+    margin: 20;
+    text-align: center;
+
+}
+
+.body-AboutUs {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.About-us-page-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-apparel {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.apparel-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-Collectibles {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.Collectibles-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-electronics {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.electronics-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.body-Home {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+
+.Home-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.body-Login {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.Login-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-TradingCards {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+.TradingCards-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.body-trainers {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+}
+
+
+.Trainers-main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.h1,
+.h2 {
+    margin: 0;
+}
+
+.h1 {
+    margin-right: auto;
+    position: relative;
+    /* Add position: relative; */
+    z-index: 1;
+    /* Add z-index to bring the image to the front */
+    top: 5.75px;
+}
+
+.h1 img {
+    max-height: 50px;
+    /* Adjust the max-height as needed */
+
+}
+
+
+.h2 {
+    margin-left: 15x;
+}
+
+.h2:last-child {
+    margin-right: 20px;
+}
+
+.h2 a {
+    color: inherit;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.h2 a:hover {
+    background-color: #A9A9A9;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins';
+    padding: 25px 50px;
+
+}
+
+.navbar a:hover {
+    background-color: #A9A9A9;
+}
+
+.navbar li {
+    float: left;
+}
+
+.titles {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    width: 94.25%;
+
+
+}
+
+.image-container {
+    display: flex;
+
+}
+
+.images-line1 img {
+    max-width: 185px;
+    max-height: 500px;
+    object-fit: cover;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image-height {
+    height: 100%;
+    transition: 0.5s;
+}
+
+.image-height:hover {
+    transform: scale(1.1);
+    filter: blur(0.5px);
+
+}
+
+/* About Us Page*/
+
+.about-us-section {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Adjust the initial distance from the bottom */
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Apply styles to show the content on hover or when in view */
+.about-us-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-us-section {
+    font-family: poppins;
+    font-size: medium;
+    margin: 70px;
+}
+
+/* Search bar */
+
+.search-container {
+    position: absolute;
+    top: 22px;
+    /* Adjust the top position as needed */
+    left: 80px;
+    /* Adjust the right position as needed */
+    display: inline-block;
+    margin: 4px 2px;
+    height: 50px;
+    width: 50px;
+    vertical-align: bottom;
+}
+
+.mglass {
+    display: inline-block;
+    pointer-events: none;
+    transform: rotate(-45deg);
+    top: 0px;
+    font-size: 30px;
+}
+
+.searchbutton {
+    position: absolute;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    position: absolute;
+    left: 49px;
+    /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    width: 0;
+    height: 100%;
+    z-index: 10;
+    transition-duration: 0.4s;
+    opacity: 0;
+}
+
+.search:hover,
+.search:focus {
+    width: 363px;
+    /* Bar width+1px */
+    padding: 0 16px 0 10px;
+    opacity: 1;
+}
+
+.expandright {
+    right: auto;
+    left: 49px;
+    /* Button width-1px */
+    padding: 10px;
+}
+
+.expandright:focus {
+    padding: 0 0 0 16px;
+}
+
+/* Sign Up form */
+
+.body-SignUp {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Quicksand, sans-serif;
+}
+
+.form-wrapper {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    width: 72.5rem;
+    height: 45rem;
+    background-color: #eee;
+    border-radius: 3rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    position: absolute;
+    top: 25%;
+    left: -30rem;
+    z-index: 100;
+    width: 30rem;
+    text-align: center;
+    color: #fff;
+    display: block;
+    /* Ensure block-level display */
+    margin: auto;
+    /* Horizontal centering */
+    transition: left 0.8s;
+}
+
+.container.change .banner {
+    left: 0.5rem;
+}
+
+.container.change .signup-form {
+    left: 27.5rem;
+  }
+
+.banner h1 {
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+.banner p {
+    font-size: 15px;
+    display: block;
+}
+
+.container.change .green-bg {
+    width: 40%;
+}
+
+.green-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #9bafd9, #103783);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.green-bg button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12rem;
+    height: 3rem;
+    background-color: transparent;
+    border: .1rem solid #fff;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form {
+    width: 43.55rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem 0;
+    transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.signup-form h1 {
+    font-size: 3rem;
+    color: #103783;
+    margin-bottom: 1rem;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media i {
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid #777;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.signup-form p {
+    font-size: 1.15rem;
+    color: #555;
+    margin-bottom: 0.1rem;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.input-group input {
+    width: 20rem;
+    height: 1.25rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.signup-button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #103783;
+    border: none;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+ #password-toggleIcon {
+    position: absolute;
+    top: 50%;
+    right: 3.5rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.login{
+    font-size: 1.75em;
+}
